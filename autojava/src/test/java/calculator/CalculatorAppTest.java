@@ -8,12 +8,12 @@ import org.junit.jupiter.api.Test;
 @DisplayName("Testy kalkulatora") //<-nie jest to dobre, ciężko potem zobaczyć co metoda robi
 public class CalculatorAppTest {
 
-    //arrange
-    CalculatorApp kalkulatorek = new CalculatorApp();
+
 
     @Test
     public void addTwoPositiveIntigerTest() {
-
+        //arrange
+        CalculatorApp kalkulatorek = new CalculatorApp();
         //act
         int suma = kalkulatorek.add(4, 5);
         //assert
@@ -23,7 +23,8 @@ public class CalculatorAppTest {
 
     @Test
     void addTwoPositiveDoubleTest() {
-
+        //arrange
+        CalculatorApp kalkulatorek = new CalculatorApp();
         //act
         double sumaDouble = kalkulatorek.add(1.2, 2.4);
         //assert - test z dokladnoscia do 7 miejsca po przecinku - sprawdzenie dwoch wartosci z delta
@@ -32,7 +33,8 @@ public class CalculatorAppTest {
 
     @Test
     void  devideTwoPositiweDoubleTest() {
-
+        //arrange
+        CalculatorApp kalkulatorek = new CalculatorApp();
         //act
         double quotient = kalkulatorek.devide(2,3);
         //assert
