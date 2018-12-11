@@ -1,4 +1,4 @@
-package kalkulator;
+package calculator;
 
 import static org.junit.jupiter.api.Assertions.*; //nie musie miec  Assertions przed .assertEquals
 
@@ -6,10 +6,10 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 @DisplayName("Testy kalkulatora") //<-nie jest to dobre, ciężko potem zobaczyć co metoda robi
-public class KalkulatorAppTest {
+public class CalculatorAppTest {
 
     //arrange
-    KalkulatorApp kalkulatorek = new KalkulatorApp();
+    CalculatorApp kalkulatorek = new CalculatorApp();
 
     @Test
     public void addTwoPositiveIntigerTest() {

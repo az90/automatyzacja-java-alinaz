@@ -1,9 +1,9 @@
-package kalkulator;
+package calculator;
 
-public class KalkulatorApp {
+public class CalculatorApp {
 
     public int add(int a, int b){
-        //nie mamy static wiec metoda wymaga tworzenia obiektu klasy KalkulatorApp(nie da się KalkulatorApp.add())
+        //nie mamy static wiec metoda wymaga tworzenia obiektu klasy CalculatorApp(nie da się CalculatorApp.add())
         return a + b;
     }
 
