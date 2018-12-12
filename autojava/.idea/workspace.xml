@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eaf2b595-92c2-4d54-addb-7ac42c5e223d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/basic/WordpressTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="eaf2b595-92c2-4d54-addb-7ac42c5e223d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +86,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/selenium/basic/WordpressTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
+            <state relative-caret-position="613">
               <caret line="55" column="54" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -361,9 +358,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WordpressTest_verifyIfCommentWasAdd - 2018.12.12 at 14h 01m 35s.xml">
-      <configuration name="WordpressTest.verifyIfCommentWasAdd" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="WordpressTest_verifyIfCommentWasAdd - 2018.12.12 at 14h 08m 17s.xml">
       <configuration name="WordpressTest.verifyIfCommentWasAdd" configurationId="JUnit" />
     </history-entry>
@@ -389,6 +383,9 @@
       <configuration name="WordpressTest.verifyIfCommentWasAdd" configurationId="JUnit" />
     </history-entry>
     <history-entry file="WordpressTest_verifyIfCommentWasAdd - 2018.12.12 at 14h 51m 16s.xml">
+      <configuration name="WordpressTest.verifyIfCommentWasAdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordpressTest_verifyIfCommentWasAdd - 2018.12.12 at 14h 52m 57s.xml">
       <configuration name="WordpressTest.verifyIfCommentWasAdd" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -475,7 +472,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/selenium/basic/WordpressTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
+        <state relative-caret-position="613">
           <caret line="55" column="54" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
