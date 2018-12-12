@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eaf2b595-92c2-4d54-addb-7ac42c5e223d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/basic/SeleniumTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/basic/SeleniumTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/basic/SeleniumTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,18 +16,22 @@
     <session id="-1911849434">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.66" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="class" value="1" />
           <entry key="java" value="2" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CLASS" value="1" />
           <entry key="JAVA" value="2" />
           <entry key="XML" value="1" />
         </counts>
@@ -36,26 +39,26 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
-          <entry key="java" value="640" />
-          <entry key="txt" value="51" />
+          <entry key="java" value="1270" />
+          <entry key="txt" value="71" />
           <entry key="xml" value="64" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="640" />
-          <entry key="PLAIN_TEXT" value="55" />
+          <entry key="JAVA" value="1270" />
+          <entry key="PLAIN_TEXT" value="75" />
           <entry key="XML" value="64" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/calculator/CalculatorAppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
+            <state relative-caret-position="680">
               <caret line="43" selection-start-line="43" selection-end-line="43" />
             </state>
           </provider>
@@ -64,8 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+            <state relative-caret-position="323">
+              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -73,11 +76,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/selenium/basic/SeleniumTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-289">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="255">
+              <caret line="61" column="75" selection-start-line="61" selection-start-column="75" selection-end-line="61" selection-end-column="75" />
               <folding>
-                <element signature="e#1564#1565#0" expanded="true" />
-                <element signature="e#1587#1588#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="method#canFindCodeSprintersOnGoogle#0;class#SeleniumTests#0" />
               </folding>
             </state>
           </provider>
@@ -125,7 +128,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -196,6 +198,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -214,7 +217,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SeleniumTests">
+  <component name="RunManager" selected="JUnit.SeleniumTests.verifyAuthorOfBlogNoteAboutTransformations">
     <configuration name="CalculatorAppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="autojava" />
       <extension name="coverage">
@@ -259,13 +262,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SeleniumTests.verifyAuthorOfBlogNoteAboutTransformations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="autojava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selenium.basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="selenium.basic" />
+      <option name="MAIN_CLASS_NAME" value="selenium.basic.SeleniumTests" />
+      <option name="METHOD_NAME" value="verifyAuthorOfBlogNoteAboutTransformations" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.CalculatorAppTest" />
       <item itemvalue="JUnit.SeleniumTests.canFindCodeSprintersOnGoogle" />
       <item itemvalue="JUnit.SeleniumTests" />
+      <item itemvalue="JUnit.SeleniumTests.verifyAuthorOfBlogNoteAboutTransformations" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SeleniumTests.verifyAuthorOfBlogNoteAboutTransformations" />
         <item itemvalue="JUnit.SeleniumTests" />
         <item itemvalue="JUnit.SeleniumTests.canFindCodeSprintersOnGoogle" />
         <item itemvalue="JUnit.CalculatorAppTest" />
@@ -298,50 +319,46 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SeleniumTests_canFindCodeSprintersOnGoogle - 2018.12.11 at 16h 54m 03s.xml">
-      <configuration name="SeleniumTests.canFindCodeSprintersOnGoogle" configurationId="JUnit" />
+    <history-entry file="SeleniumTests_verifyAuthorOfBlogNoteAboutTransformations - 2018.12.12 at 11h 15m 01s.xml">
+      <configuration name="SeleniumTests.verifyAuthorOfBlogNoteAboutTransformations" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SeleniumTests_canFindCodeSprintersOnGoogle - 2018.12.11 at 17h 07m 32s.xml">
-      <configuration name="SeleniumTests.canFindCodeSprintersOnGoogle" configurationId="JUnit" />
+    <history-entry file="SeleniumTests_verifyAuthorOfBlogNoteAboutTransformations - 2018.12.12 at 11h 15m 37s.xml">
+      <configuration name="SeleniumTests.verifyAuthorOfBlogNoteAboutTransformations" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SeleniumTests_canFindCodeSprintersOnGoogle - 2018.12.11 at 17h 10m 42s.xml">
-      <configuration name="SeleniumTests.canFindCodeSprintersOnGoogle" configurationId="JUnit" />
+    <history-entry file="SeleniumTests_verifyAuthorOfBlogNoteAboutTransformations - 2018.12.12 at 11h 16m 17s.xml">
+      <configuration name="SeleniumTests.verifyAuthorOfBlogNoteAboutTransformations" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SeleniumTests_canFindCodeSprintersOnGoogle - 2018.12.11 at 17h 19m 15s.xml">
-      <configuration name="SeleniumTests.canFindCodeSprintersOnGoogle" configurationId="JUnit" />
+    <history-entry file="SeleniumTests_verifyAuthorOfBlogNoteAboutTransformations - 2018.12.12 at 11h 16m 58s.xml">
+      <configuration name="SeleniumTests.verifyAuthorOfBlogNoteAboutTransformations" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SeleniumTests_canFindCodeSprintersOnGoogle - 2018.12.11 at 17h 19m 32s.xml">
-      <configuration name="SeleniumTests.canFindCodeSprintersOnGoogle" configurationId="JUnit" />
+    <history-entry file="SeleniumTests_verifyAuthorOfBlogNoteAboutTransformations - 2018.12.12 at 11h 25m 18s.xml">
+      <configuration name="SeleniumTests.verifyAuthorOfBlogNoteAboutTransformations" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SeleniumTests_canFindCodeSprintersOnGoogle - 2018.12.11 at 17h 22m 11s.xml">
-      <configuration name="SeleniumTests.canFindCodeSprintersOnGoogle" configurationId="JUnit" />
+    <history-entry file="SeleniumTests_verifyAuthorOfBlogNoteAboutTransformations - 2018.12.12 at 11h 32m 05s.xml">
+      <configuration name="SeleniumTests.verifyAuthorOfBlogNoteAboutTransformations" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SeleniumTests_canFindCodeSprintersOnGoogle - 2018.12.11 at 17h 54m 54s.xml">
-      <configuration name="SeleniumTests.canFindCodeSprintersOnGoogle" configurationId="JUnit" />
+    <history-entry file="SeleniumTests_verifyAuthorOfBlogNoteAboutTransformations - 2018.12.12 at 11h 32m 14s.xml">
+      <configuration name="SeleniumTests.verifyAuthorOfBlogNoteAboutTransformations" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SeleniumTests_canFindCodeSprintersOnGoogle - 2018.12.11 at 17h 56m 22s.xml">
-      <configuration name="SeleniumTests.canFindCodeSprintersOnGoogle" configurationId="JUnit" />
+    <history-entry file="SeleniumTests_verifyAuthorOfBlogNoteAboutTransformations - 2018.12.12 at 11h 38m 45s.xml">
+      <configuration name="SeleniumTests.verifyAuthorOfBlogNoteAboutTransformations" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SeleniumTests - 2018.12.11 at 18h 01m 05s.xml">
-      <configuration name="SeleniumTests" configurationId="JUnit" />
+    <history-entry file="SeleniumTests_verifyAuthorOfBlogNoteAboutTransformations - 2018.12.12 at 11h 50m 41s.xml">
+      <configuration name="SeleniumTests.verifyAuthorOfBlogNoteAboutTransformations" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SeleniumTests - 2018.12.11 at 18h 01m 45s.xml">
-      <configuration name="SeleniumTests" configurationId="JUnit" />
+    <history-entry file="SeleniumTests_verifyAuthorOfBlogNoteAboutTransformations - 2018.12.12 at 11h 52m 12s.xml">
+      <configuration name="SeleniumTests.verifyAuthorOfBlogNoteAboutTransformations" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3295082" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3295082" />
@@ -349,12 +366,16 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3295082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -368,25 +389,32 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/calculator/CalculatorAppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
+        <state relative-caret-position="680">
           <caret line="43" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        <state relative-caret-position="323">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.3.2/junit-platform-commons-1.3.2.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="68" column="31" lean-forward="true" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/selenium/basic/SeleniumTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-289">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="255">
+          <caret line="61" column="75" selection-start-line="61" selection-start-column="75" selection-end-line="61" selection-end-column="75" />
           <folding>
-            <element signature="e#1564#1565#0" expanded="true" />
-            <element signature="e#1587#1588#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#canFindCodeSprintersOnGoogle#0;class#SeleniumTests#0" />
           </folding>
         </state>
       </provider>
