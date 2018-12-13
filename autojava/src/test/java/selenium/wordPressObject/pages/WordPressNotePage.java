@@ -32,6 +32,12 @@ public class WordPressNotePage {
 
         List<WebElement> filterdAuthor = listOfAuthorOfComments.collect(Collectors.toList());
 
-        return  filterdAuthor.size() == 1;
+        Stream<WebElement> listOfTextOfComments = driver.findElements(By.className("comment-content"))
+                .stream()
+                .filter(n -> n.findElement(By.tagName("p")).getText().equals(comment));
+
+        List<WebElement> filterdComment = listOfTextOfComments.collect(Collectors.toList());
+
+        return  filterdAuthor.size() == 1 && filterdComment.size() == 1;
     }
 }
