@@ -7,33 +7,24 @@ import org.openqa.selenium.WebElement;
 import java.util.stream.Stream;
 
 public class GoogleResultPage {
-    public static final By RESULT_LOC = By.cssSelector("#search .rc .r");
-    private final WebDriver grpDriver;
+    private static final By RESULT_LOC = By.cssSelector("#search .rc .r");
+    private final WebDriver driver;
 
     public GoogleResultPage(WebDriver driver){
-    grpDriver = driver;
+    this.driver = driver;
     }
     public boolean contains(String resultUrl){
-        Stream<WebElement> results = getResultByUrl(resultUrl);
-
-        if (results.count() > 0) {
-            return true;
-        } else {
-            return false;
-        }
+        Stream<WebElement> results = getResultsByUrl(resultUrl);
+        return results.count() > 0;
     }
     public boolean containsResultWithTitle(String pageUrl, String pageTitle) {
-        Stream<WebElement> results = getResultByUrl(pageUrl)
+        Stream<WebElement> results = getResultsByUrl(pageUrl)
                 .filter(r -> r.findElement(By.tagName("h3")).getText().equals(pageTitle));
 
-        if (results.count() > 0) {
-            return true;
-        } else {
-            return false;
-        }
+        return results.count() > 0;
     }
-    private Stream<WebElement> getResultByUrl(String resutlUrl) {
-        return grpDriver.findElements(RESULT_LOC).stream()
+    private Stream<WebElement> getResultsByUrl(String resutlUrl) {
+        return driver.findElements(RESULT_LOC).stream()
                 .filter(n -> n.findElement(By.tagName("a")).getAttribute("href").equals(resutlUrl));
     }
 }

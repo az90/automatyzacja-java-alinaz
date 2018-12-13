@@ -1,6 +1,6 @@
 package selenium.pageObjects;
 
-import org.junit.jupiter.api.Assertions;
+import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 import selenium.pageObjects.pages.GoogleMainPage;
 import selenium.pageObjects.pages.GoogleResultPage;
@@ -18,8 +18,9 @@ public class GoogleTest extends BaseTest {
     GoogleResultPage resultPage = googlePage.search("Scrum.org");
 
     // Assert Scrum.org page is found
-        Assertions.assertTrue(resultPage.contains(pageUrl));
-        Assertions.assertTrue(resultPage.containsResultWithTitle(pageUrl, pageTitle),
+    // metoda statyczna nie wymaga istnienia obiektu do wywołania tej metody
+    assertTrue(resultPage.contains(pageUrl));
+    assertTrue(resultPage.containsResultWithTitle(pageUrl, pageTitle),
                 "Scrum.org page has correct title");
     }
 
